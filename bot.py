@@ -6,7 +6,7 @@ from pyrogram.errors import FloodWait
 
 logging.basicConfig(level=logging.ERROR)
        
-SESSION = environ.get("SESSION", "")        
+SESSION = environ.get("SESSION", "BQFsDkoAkRav7KiFgMAESlQ4ULlTe_4P7L2F67EFT2-p2eL4sZWYflJ5BiDDrGkWM3q9VFipe3GIZf9FiSasvfS2tgdk8yk6Iozd2ZCjQ2J8b4IC21RNP6YLkJyKr2XoDD3luocIFpmr6MfqHHB7E6jBz2ZDrE3yp_j_4CTFMM2VTp4Ouy8dzpxdIY6mtuHWXF7OmOLp94qyaCpls03FiBRCfvS7AWIEjPEX-JQcVa7Ek1t3XYJ4PKICXiJ7ta3BueZzH3tBL7nudHxV2WHW6_rMNGbPQDPtFMy6RIdOnumov_7H-ZMnFtJvc66-Jv6R2QsNQCHB_BnEFyw6pxoxrwKvP1bbXAAAAAGHr3v5AA")        
 User = Client(name="AcceptUser", session_string=SESSION)
 
 
